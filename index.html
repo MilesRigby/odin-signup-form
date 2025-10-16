@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-area">
+
+        <div id="img-section">
+
+            <img src="leaves_halie-west.jpg" id="img-section-background">
+
+            <div id="banner">
+                <img src="odin-lined.png" id="banner-img">
+                <p id="banner-text">ODIN</p>
+            </div>
+
+            <p id="artist-credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+
+        </div>
+
+        <div id="form-section">
+
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+
+            <form action="https://httpbin.org/post" method="post">
+
+                <div id="form-card">
+                    <p id="form-card-header">Let's do this!</p>
+
+                    <div id="form-card-fields">
+
+                        <div class="field-pair">
+
+                            <div class="form-field">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" required>
+                            </div>
+
+                        </div>
+
+                        <div class="field-pair">
+
+                            <div class="form-field">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="tel" id="phone_number">
+                            </div>
+                            
+                        </div>
+
+                        <div class="field-pair">
+
+                            <div class="form-field">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" required>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <p>Already have an account? <a id="log-in-link">Log in</a></p>
+
+        </div>
+
+    </div>
+</body>
+</html>
