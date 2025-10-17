@@ -15,7 +15,7 @@
 #form-area {
     width: calc(max(79rem, 100vw));
     height: 45rem;
-    margin-top: 17rem;
+    margin-top: max(calc(50vh - 22.5rem), 0px);
 
     background: #FAFAFD;
 }
